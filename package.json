@@ -1,0 +1,23 @@
+{
+  "name": "vidly-movie-renting",
+  "version": "1.0.0",
+  "description": "This is the Backend Services for Renting Movies using Node JS &amp; Express framework for RESTful APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mix-4dev/Vidly-Movie-Renting.git"
+  },
+  "keywords": [],
+  "author": "Mix",
+  "license": "BFCAI",
+  "bugs": {
+    "url": "https://github.com/Mix-4dev/Vidly-Movie-Renting/issues"
+  },
+  "homepage": "https://github.com/Mix-4dev/Vidly-Movie-Renting#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
