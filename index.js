@@ -6,7 +6,6 @@ const credentials = require("./middleware/credentials");
 const express = require('express');
 const mongoose = require("mongoose");
 const morgan = require("morgan");
-const validateCustomer = require("./validateCustomer");
 const app = express();
 
 app.use(express.json());
