@@ -3,7 +3,7 @@ const express = require('express');
 const router = express.Router();
 
 router.get("/", async (req, res) => {
-  const genres = await Genre.find({}, {name:1, _id:0}).sort("name");
+  const genres = await Genre.find({}, {name:1, _id:1}).sort("name");
   res.send(genres);
 });
 
