@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --watchAll verbose",
-    "start:dev": "nodemon ./index.js",
-    "start": "node ./index.js"
+    "start": "nodemon ./index.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +19,7 @@
   },
   "homepage": "https://github.com/Mix-4dev/Vidly-Movie-Renting#readme",
   "dependencies": {
+    "body-parser": "^2.2.0",
     "express": "^5.1.0",
     "joi": "^17.13.3",
     "mongoose": "^8.16.1",
